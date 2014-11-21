@@ -1,4 +1,8 @@
 thealexDotMe
 ============
 
-My personal website.
+### *Todo List*
+
+- [x] Create Business Cards
+- [ ] EECS 370 Homeowrk
+- [ ] Sleep

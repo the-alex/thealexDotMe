@@ -1,0 +1,27 @@
+.bussinesCardContainer {
+    margin: auto;
+    margin-top: 70px;
+    border: 1px dashed black;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+.leftPanel {
+    height: inherit;
+    width: 149px;
+    text-align: right;
+}
+
+.dashedVertialLine {
+    border: 2px bashed black;
+    height: inherit;
+    width: 1px;
+}
+
+.rightPanel {
+    height: inherit;
+    width: 149px;
+    text-align: right;
+}

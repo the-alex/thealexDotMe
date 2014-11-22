@@ -1,0 +1,70 @@
+.profilePicture {
+    border: solid 5px #EE4B3A;
+    box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.22);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    top: 50%;
+    left: 50%;
+    background-image: url('/img/profilePhoto.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+body {
+    background-color: #359C8A;
+}
+
+#tracer {
+    font-family: 'Roboto Slab', serif;
+    color: #359C8A;
+    text-shadow:
+    -1px -1px 0 #EE4B3A,
+    1px -1px 0 #EE4B3A,
+    -1px 1px 0 #EE4B3A,
+    1px 1px 0 #EE4B3A;
+}
+
+.dropdownBar {
+    border-radius: 25px;
+    width: auto;
+    height: 36px;
+    margin: 25px 54px;
+    background-color: #EE4B3A;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.22);
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.topSpacer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#hello  {
+    
+}
+
+
+.listCategories {
+    text-align: center;
+    padding-top: 8px;
+}
+
+#listItems {
+    margin-bottom:  0px;
+    border: solid 3px #dbbb7f;
+    border-radius: 25px;
+    width: auto;
+    height: 24px;
+    margin: 15px 54px;
+    background-color: rgb(58, 148, 238);
+}

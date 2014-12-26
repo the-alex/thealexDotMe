@@ -1,11 +1,18 @@
 .bussinesCardContainer {
     margin: auto;
     margin-top: 70px;
-    border: 1px dashed black;
-    height: 300px;
+    padding: 0 0 0 0;
+/*    border: 1px dashed black;*/
+    height: 110px;
     width: 300px;
+/*    display: inline-block*/
+    display: block
 }
 
+.square {
+    height: 100px;
+    width: 100px;
+}
 
 
 .leftPanel {
@@ -23,5 +30,9 @@
 .rightPanel {
     height: inherit;
     width: 149px;
-    text-align: right;
+    text-align: left;
+}
+
+.left_side_info {
+    font-family: Josefin Sans;
 }

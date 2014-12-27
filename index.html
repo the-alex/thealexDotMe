@@ -38,12 +38,21 @@
                         <br>
                         <span style="font-family: museo slab; font-size: 0.90em">Software Engineer</span>
                         <br>
-                        <span style="font-family: museo slab; font-size: 0.90em">& tinkerer</span>
-                        <span style=""></span>
+                        <span style="font-family: museo slab; font-size: 0.90em">&&nbsp;</span>
+                        <span id="hobby" style="font-family: museo slab"></span>
+                        <script>
+                            var myHobbies = ["Photographer", "Amateur Designer", "Musician"];
+                            var rando = Math.floor(Math.random() * myHobbies.length)
+                            var datSpan = document.getElementById("hobby");
+                            datSpan.innerHTML = myHobbies[rando];
+                        </script>
                     </div>
                     <div style="border: 1px black dashed"></div>
 
                     <div class="rightPanel" style="padding-left: 10px">
+                       <div style="height: 7px">
+                           
+                       </div>
                         <span class="left_side_info">(813) - 220 - 1066</span>
                         <br>
                         <span class="left_side_info">thealex@umich.edu</span>

@@ -1,10 +1,10 @@
-.bussinesCardContainer {
+.business {
     margin: auto;
     margin-top: 70px;
-    padding: 0 0 0 0;
+    padding: 0;
 /*    border: 1px dashed black;*/
-    height: 124px;
-    width: 300px;
+    height: 122px;
+    width: 22%;
 /*    display: inline-block*/
     display: block
 }

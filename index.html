@@ -18,6 +18,8 @@
             Typekit.load();
         } catch (e) {}
     </script>
+    <!--    For personal Scripts-->
+    <script src="js/script.js"></script>
 
 
 
@@ -30,8 +32,8 @@
 <body>
     <div class="container-fluid" style="content-align: center">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="bussinesCardContainer" style="margin-left: auto; display: flex">
+            <div class="col-lg-12">    
+                <div class="business" style="display: flex">
                     <div class="leftPanel" style="padding-right: 10px">
                         <span style="font-family: museo slab; font-size: 2em">Alex</span>
                         <span style="font-family: museo slab; font-size: 2em">Chojnacki</span>
@@ -41,22 +43,21 @@
                         <span style="font-family: museo slab; font-size: 0.90em">&&nbsp;</span>
                         <span style="font-family: museo slab">
                         <i id="hobby">
-<!--                            To be replaced by script-->
+                            <!--To be replaced by script-->
                         </i>
                         </span>
                         <script>
-                            var myHobbies = ["Photographer", "Amateur Designer", "Musician", "Nerd", "Maker", "Tinkerer"];
-                            var rando = Math.floor(Math.random() * myHobbies.length)
-                            var datSpan = document.getElementById("hobby");
-                            datSpan.innerHTML = myHobbies[rando];
+                            genRandHobby();
                         </script>
                     </div>
                     <div style="border: 1px black dashed"></div>
 
                     <div class="rightPanel" style="padding-left: 10px">
-                       <div style="height: 7px">
-                           
-                       </div>
+
+                        <div style="height: 8px">
+                            <!--For Spacing-->
+                        </div>
+
                         <span class="left_side_info">(813) - 220 - 1066</span>
                         <br>
                         <span class="left_side_info">thealex@umich.edu</span>
@@ -68,7 +69,6 @@
             </div>
         </div>
     </div>
-
 
 
 

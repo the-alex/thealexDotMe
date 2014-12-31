@@ -1,0 +1,38 @@
+.business {
+    margin: auto;
+    margin-top: 70px;
+    padding: 0;
+/*    border: 1px dashed black;*/
+    height: 122px;
+    width: 22%;
+/*    display: inline-block*/
+    display: block
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+}
+
+
+.leftPanel {
+    height: inherit;
+    width: 149px;
+    text-align: right;
+}
+
+.dashedVertialLine {
+    border: 2px bashed black;
+    height: inherit;
+    width: 1px;
+}
+
+.rightPanel {
+    height: inherit;
+    width: 149px;
+    text-align: left;
+}
+
+.left_side_info {
+    font-family: Josefin Sans;
+}

@@ -8,18 +8,22 @@
     <meta name="author" content="">
     <title>| Alex Chojnacki |</title>
     <link rel="shortcut icon" href="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js "></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
     <!--    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>-->
     <link rel="stylesheet" href="resources/css/style.css">
     <script src="//use.typekit.net/itl3kzj.js"></script>
+
+    <!-- Typekit stuff -->
     <script>
         try {
             Typekit.load();
         } catch (e) {}
     </script>
-    <!--    For personal Scripts-->
+    <!-- For personal Scripts-->
     <script src="resources/js/script.js"></script>
 
 
@@ -31,64 +35,69 @@
 </head>
 
 <body>
-
     <div class="container">
-
         <!-- NAVBAR SECTION -->
-
-        <!--
-        <div class="navbar navbar-default">
+        <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-togle="collapse" data-target="#bs=exambple-navbar-collapse-1">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">| Home |</a>
+                    <a class="navbar-brand" href="#">Home</a>
                 </div>
-                
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"></div>
-            
+
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="blog.html">Blog</a>
+                        </li>
+                        <li><a href="#">Photography</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-        </div>
-       
--->
+            <!-- /.container-fluid -->
+        </nav>
+
+
         <!-- Business Card Header -->
         <div class="container-fluid" style="content-align: center">
             <div class="row">
                 <div style="margin-top: 20px; display: flex">
-                    <div class="leftPanel" style="margin-left: auto; padding-right: 10px">
-                        <span style="font-family: museo slab; font-size: 2em">Alex</span>
-                        <span style="font-family: museo slab; font-size: 2em">Chojnacki</span>
+                    <div class="leftPanel">
+                        <span id="name-card">
+                            Alex
+                            <br>
+                            Chojnacki
+                        </span>
                         <br>
-                        <span style="font-family: museo slab; font-size: 0.90em">Software Engineer</span>
-                        <br>
-                        <span style="font-family: museo slab; font-size: 0.90em">&&nbsp;</span>
-                        <span style="font-family: museo slab">
-                        <i id="hobby">
-                            <!--To be replaced by script-->
-                        </i>
+                        <span id="subtitle-card">
+                            Software Engineer
+                            <br>
+                            &&nbsp;
+                            <i id="hobby">
+                                <!-- To be replaced genRandHobby -->
+                            </i>
                         </span>
                         <script>
                             genRandHobby();
                         </script>
                     </div>
-                    <div style="border: 1px black dashed"></div>
 
-                    <div class="rightPanel" style="margin-right: auto; padding-left: 10px">
+                    <div id="center_line-card"></div>
 
-                        <div style="height: 8px">
-                            <!--For Spacing-->
-                        </div>
-
-                        <span class="left_side_info">(813) - 220 - 1066</span>
-                        <br>
-                        <span class="left_side_info">thealex@umich.edu</span>
-                        <br>
-                        <span class="left_side_info"><i>"Somewhere, something incredible is waiting to be known."</i></span>
-                        <span class="left_side_info">- Carl Sagan</span>
+                    <div class="rightPanel">
+                        <span class="left_side_info">
+                            (813) - 220 - 1066
+                            <br>
+                            thealex@umich.edu
+                            <br>
+                            <i>"Somewhere, something incredible is waiting to be known."</i> - Carl Sagan
+                        </span>
 
                         <script>
                             // TODO: Implement this function.
@@ -100,10 +109,6 @@
             </div>
         </div>
     </div>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js "></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js "></script>
 </body>
 
 </html>

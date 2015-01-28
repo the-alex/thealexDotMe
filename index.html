@@ -36,46 +36,20 @@
 
 <body>
     <div class="container">
-        <!-- NAVBAR SECTION -->
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Home</a>
-                </div>
-
-
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="blog.html">Blog</a>
-                        </li>
-                        <li><a href="#">Photography</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-
 
         <!-- Business Card Header -->
         <div class="container-fluid" style="content-align: center">
             <div class="row">
-                <div style="margin-top: 20px; display: flex">
-                    <div class="leftPanel">
-                        <span id="name-card">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="heading-container">
+                        <div class="leftPanel">
+                            <span id="name-card">
                             Alex
                             <br>
                             Chojnacki
                         </span>
-                        <br>
-                        <span id="subtitle-card">
+                            <br>
+                            <span id="subtitle-card">
                             Software Engineer
                             <br>
                             &&nbsp;
@@ -83,30 +57,36 @@
                                 <!-- To be replaced genRandHobby -->
                             </i>
                         </span>
-                        <script>
-                            genRandHobby();
-                        </script>
-                    </div>
+                            <script>
+                                genRandHobby();
+                            </script>
+                        </div>
 
-                    <div id="center_line-card"></div>
+                        <div id="center_line-card"></div>
 
-                    <div class="rightPanel">
-                        <span class="left_side_info">
+                        <div class="rightPanel">
+                            <span class="left_side_info">
                             (813) - 220 - 1066
                             <br>
                             thealex@umich.edu
                             <br>
-                            <i>"Somewhere, something incredible is waiting to be known."</i> - Carl Sagan
+                            <i>"I don't like that man. I must get to know him better."</i> - Abraham Lincoln
                         </span>
 
-                        <script>
-                            // TODO: Implement this function.
-                             // genRandQuote();
-                        </script>
-
+                        </div>
                     </div>
+
                 </div>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-4" style="text-align: center">
+                <a href="/resources/alex_chojnacki_resume.pdf"><h3>Resume</h3></a>
+            </div>
+            <div class="col-sm-2" style="text-align: center">
+                <a href="http://github.com/the-alex/"><h3>GitHub</h3></a>
+            </div>
+            <div class="col-sm-2"></div>
         </div>
     </div>
 </body>

@@ -31,7 +31,7 @@
 
 .rightPanel {
     height: inherit;
-    width: 149px;
+    width: 143px;
     text-align: left;
     margin-right: auto; 
     padding-left: 10px;
@@ -56,4 +56,10 @@
 
 #center_line-card {
     border: black 1px dashed;
+}
+
+.heading-container {
+    display: flex;
+    padding: 20px;
+    
 }

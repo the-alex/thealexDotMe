@@ -2,11 +2,12 @@
     margin: auto;
     margin-top: 70px;
     padding: 0;
-/*    border: 1px dashed black;*/
+    /*    border: 1px dashed black;*/
+    
     height: 122px;
     width: 22%;
-/*    display: inline-block*/
-    display: block
+    /*    display: inline-block*/
+    /*    display: block*/
 }
 
 .square {
@@ -14,34 +15,29 @@
     width: 100px;
 }
 
-
 .leftPanel {
-    height: inherit;
-    width: 149px;
+    width: 159px;
     text-align: right;
-    margin-left: auto; 
+    margin-left: auto;
     padding-right: 10px;
 }
 
 .dashedVertialLine {
     border: 2px bashed black;
-    height: inherit;
-    width: 1px;
+    /*    height: inherit;*/
 }
 
 .rightPanel {
     height: inherit;
-    width: 143px;
+    width: 159px;
     text-align: left;
-    margin-right: auto; 
+    margin-right: auto;
     padding-left: 10px;
 }
 
 .left_side_info {
     font-family: Josefin Sans;
 }
-
-
 /* Card Stuff */
 
 #name-card {
@@ -51,7 +47,8 @@
 }
 
 #subtitle-card {
-    font-family: museo slab, Times; font-size: 0.90em
+    font-family: museo slab, Times;
+    font-size: 0.90em
 }
 
 #center_line-card {
@@ -59,7 +56,20 @@
 }
 
 .heading-container {
-    display: flex;
-    padding: 20px;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
     
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    
+    display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    
+    padding: 20px 0px;
 }

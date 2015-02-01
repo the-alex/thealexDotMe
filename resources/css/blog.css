@@ -1,0 +1,44 @@
+.spacer {
+    padding: 15px;
+}
+
+.post-spacer {
+    padding: 5px;
+}
+
+#subheading {
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 3px;
+}
+
+#main-banner {
+    margin: auto;
+    text-align: center;
+    font-family: Times, monospace;
+    font-size: 3.5vw;
+}
+
+.post-info table,
+th,
+td {
+    padding: 5px;
+}
+
+.post-title {
+    font-family: "lobster", Copperplate;
+    font-size: 2em;
+    text-align: justify;
+    border-bottom: 4px solid #f2f2f2;
+    margin-bottom: 15px;
+}
+
+.post-container {
+    border: 2px solid #f2f2f2
+}
+
+.post-content {
+    font-family: adobe-jenson-pro-display, Copperplate;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4em;
+}

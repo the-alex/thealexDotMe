@@ -73,3 +73,22 @@
     
     padding: 20px 0px;
 }
+
+.footer {
+    padding: 30px;
+}
+
+.img-gallery ul {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.img-gallery ul li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.img-gallery ul li img {
+    cursor: pointer;
+    padding: 10px;
+}

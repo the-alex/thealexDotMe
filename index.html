@@ -93,6 +93,9 @@
                 <li role="presentation">
                     <a href="#links" aria-controls="links" role="tab" data-toggle="tab">Links</a>
                 </li>
+                <li role="presentation">
+                    <a href="#photos" aria-controls="photos" role="tab" data-toggle="tab">Photos</a>
+                </li>
             </ul>
 
             <!-- Tab panes -->
@@ -218,8 +221,9 @@
 
                 </div>
 
+                <!-- Beginning of links tab -->
+
                 <div role="tabpanel" class="tab-pane" id="links">
-                    <!-- Links to stuff go here -->
                     <div class="row">
                         <div class="col-sm-2 col-sm-offset-4" style="text-align: center">
                             <a href="/resources/alex_chojnacki_resume.pdf"><h3>Resume</h3></a>
@@ -229,8 +233,53 @@
                         </div>
                         <div class="col-sm-2"></div>
                     </div>
-
                 </div>
+
+                <!-- End of links tab -->
+
+                <!-- Beginning of photos tab -->
+
+                <div role="tabpanel" class="tab-pane" id="photos">
+                    <div class="container">
+                        <div class="row img-gallery">
+                            <ul>
+                                <li><img src="/resources/img/gallery/DSC03377.jpg" alt="" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                </li>
+                                <li><img src="/resources/img/gallery/DSC03515.jpg" alt="" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                </li>
+                                <li><img src="/resources/img/gallery/DSC04580.jpg" alt="" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                </li>
+                                <li><img src="/resources/img/gallery/DSC04691.jpg" alt="" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                </li>
+                                <li><img src="/resources/img/gallery/DSCF1434.jpg" alt="" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                </li>
+                                <li><img src="/resources/img/gallery/DSCF1589.jpg" alt="" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                </li>
+                                <li><img src="/resources/img/gallery/DSCF1723.jpg" alt="" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                </li>
+                                <li><img src="/resources/img/gallery/DSCF1855.jpg" alt="" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                </li>
+                                <li><img src="/resources/img/gallery/POSTE.jpg" alt="" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                </li>
+                                <li><img src="/resources/img/gallery/upstairs.jpg" alt="" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="gallery-modal" tabindex="-1" role="dialog" aria-labelledby="gallery-modal-label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+
+                                </div>
+                            </div>
+                            <!-- /.modal-content -->
+                        </div>
+                        <!-- /.modal-dialog -->
+                    </div>
+                    <!-- /.modal -->
+                </div>
+
             </div>
 
         </div>

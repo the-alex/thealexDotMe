@@ -7,11 +7,11 @@ function genRandHobby() {
 
 $(document).ready(function () {
     $('li img').on('click', function () {
-        src = $(this).attr('src');
-        img_name = src.slice(src.indexOf("thumbnails/") + "thumbnails/".length, src.length);
+        var src = $(this).attr('src');
+        var img_name = src.slice(src.indexOf("thumbnails/") + "thumbnails/".length, src.length);
         img_name = img_name.slice(0, img_name.indexOf(".thumbnail"));
         src = src.slice(0, src.indexOf("thumbnails"));
-        new_src = src + "hd/" + img_name;
+        var new_src = src + "hd/" + img_name;
         var img = '<img src="' + new_src + '" class="img-responsive"/>';
         $('#gallery-modal').modal();
         $('#gallery-modal').on('shown.bs.modal', function () {

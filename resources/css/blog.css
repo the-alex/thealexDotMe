@@ -32,12 +32,17 @@ td {
     margin-bottom: 15px;
 }
 
+.post-title .subtitle {
+    font-family: adobe-jenson-pro-display, Times;
+    font-size: 0.6em;
+}
+
 .post-container {
     border: 2px solid #f2f2f2
 }
 
 .post-content {
-    font-family: adobe-jenson-pro-display, Copperplate;
+    font-family: adobe-jenson-pro-display, Times;
     font-style: normal;
     font-weight: 400;
     font-size: 1.4em;

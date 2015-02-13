@@ -35,10 +35,17 @@ td {
 .post-title .subtitle {
     font-family: adobe-jenson-pro-display, Times;
     font-size: 0.6em;
+    font-style: italic;
 }
 
 .post-container {
-    border: 2px solid #f2f2f2
+    border: 2px solid #f2f2f2;
+    margin-bottom: 50px;
+    padding-top: 15px;
+}
+
+.post-container a {
+    font-style: italic;
 }
 
 .post-content {

@@ -92,3 +92,7 @@
     cursor: pointer;
     padding: 10px;
 }
+
+.link-container {
+    text-align: center;
+}
